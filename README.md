@@ -7,3 +7,7 @@ For linux:
 Build the Docker Image
 - docker compose build
 - docker compose up
+
+Performance:
+- Scraped 100 entries in 14.64 seconds (~6.83 req/s) using Selenium
+- Scraped 100 entries in 1.90 seconds (~52.59 req/s) using json
