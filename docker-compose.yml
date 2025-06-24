@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  webscraping:
+    build: .
+    volumes:
+      - ./:/app
+    command: python webscraping.py
